@@ -1,2 +1,29 @@
 file ini merupakan resolusi dari saya 
 latihan saja untuk menggunakan github di laptop
+
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS D:\resolusi> git add .
+PS D:\resolusi> git commit -m "first commit ke github"
+[master (root-commit) ef49d02] first commit ke github
+ 1 file changed, 2 insertions(+)
+ create mode 100644 resolusi.txt
+PS D:\resolusi> git remote add origin https://github.com/Johanes-Kristiadi/resolusi-johanes.git
+PS D:\resolusi> git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 300 bytes | 100.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Johanes-Kristiadi/resolusi-johanes.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS D:\resolusi> git log
+commit ef49d0272688d5eb8dee510d08ed8bd289bc14e8 (HEAD -> master, origin/master)
+Author: JohanesKristiadi <johanes.kristiadi@student.umn.ac.id>
+Date:   Thu Nov 10 20:13:28 2022 +0700
+
+    first commit ke github
+PS D:\resolusi> 
